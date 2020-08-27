@@ -1,5 +1,8 @@
 #!/bin/sh
 
+sudo apt -y update
+sudo apt -y upgrade
+
 echo "Installing required softwares ....."
 sudo apt install hostapd
 sudo systemctl unmask hostapd
